@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: bulk_certificate_generator
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./certificates.db
+      - STORAGE_DIR=./storage
+      - MAX_RECIPIENTS_PER_REQUEST=1000
+      - MAX_NAME_LENGTH=100
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./storage:/app/storage
+      - ./data:/app/data
+    restart: unless-stopped

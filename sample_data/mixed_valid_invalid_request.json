@@ -1,0 +1,18 @@
+{
+  "event_name": "Mixed Validation Test Event",
+  "organization": "Test Organization",
+  "description": "for completing the workshop",
+  "issue_date": "2026-10-08",
+  "signatory_name": "Test Signatory",
+  "signatory_title": "Director",
+  "recipients": [
+    {"name": "Valid Person One", "email": "valid1@example.com"},
+    {"name": "Valid Person Two", "email": "valid2@example.com"},
+    {"name": "", "email": "blank-name@example.com"},
+    {"name": "Invalid Email Person", "email": "not-an-email"},
+    {"name": "Valid Person Three", "email": "valid3@example.com"},
+    "this is not an object at all",
+    {"name": "Duplicate Email", "email": "valid1@example.com"},
+    {"name": "Valid Person Four", "email": "valid4@example.com"}
+  ]
+}

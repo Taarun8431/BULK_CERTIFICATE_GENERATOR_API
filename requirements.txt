@@ -1,0 +1,19 @@
+# requirements.txt – production dependencies
+#
+# Version ranges chosen to be compatible with Python 3.10, 3.11, and 3.12.
+# After running pip install and verifying all tests pass, run:
+#   pip freeze
+# and record exact versions in the comment block below.
+#
+# ===========================================================================
+# Exact tested versions (pip freeze output after green test run):
+# See bottom of file after first successful install.
+# ===========================================================================
+
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0,<3.0
+pydantic>=2.5,<3
+pydantic[email]>=2.5,<3
+email-validator>=2.0
+reportlab>=4.0,<5

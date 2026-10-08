@@ -1,0 +1,15 @@
+{
+  "event_name": "PyData Bengaluru 2026",
+  "organization": "Acme Community",
+  "description": "for successfully completing the Backend Engineering Workshop",
+  "issue_date": "2026-10-08",
+  "signatory_name": "A. Rao",
+  "signatory_title": "Program Director",
+  "recipients": [
+    {"name": "Asha Rao", "email": "asha@example.com"},
+    {"name": "Vikram Singh", "email": "vikram@example.com"},
+    {"name": "Priya Nair", "email": "priya@example.com"},
+    {"name": "Rahul Sharma", "email": "rahul@example.com"},
+    {"name": "Deepa Iyer", "email": "deepa@example.com"}
+  ]
+}
